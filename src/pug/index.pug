@@ -1,0 +1,183 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    link(rel="stylesheet", href="css/style.css")
+    link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous')
+    link(rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous")
+    title My Diploma Project
+
+  body
+
+    header
+      .container
+        // Header Navigation
+        ul(class="nav nav-tabs")
+          li(class="nav-item dropdown")
+            a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для мужчин
+            div(class="dropdown-menu")
+              a(class="dropdown-item" href="#") БРЮКИ
+              a(class="dropdown-item" href="#") РУБАШКИ
+              a(class="dropdown-item" href="#") ОБУВЬ
+
+          li(class="nav-item dropdown")
+            a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для женщин
+            div(class="dropdown-menu")
+              a(class="dropdown-item" href="#") БРЮКИ
+              a(class="dropdown-item" href="#") РУБАШКИ
+              a(class="dropdown-item" href="#") ОБУВЬ
+
+          li(class="nav-item dropdown")
+            a(class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false") Для детей
+            div(class="dropdown-menu")
+              a(class="dropdown-item" href="#") БРЮКИ
+              a(class="dropdown-item" href="#") РУБАШКИ
+              a(class="dropdown-item" href="#") ОБУВЬ
+
+          div(class="im")
+            img(src="/images/Frame.jpg", alt="картинка")
+            span THE LOOP
+
+          li(class="nav-item")
+            a(class="nav-link" href="#") Оплата
+
+          li(class="nav-item")
+            a(class="nav-link" href="#") Доставка
+          i(class="fal fa-shopping-basket")
+          img(src="images/Group.jpg", alt="картинка")
+
+        // Slider
+        #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+          ol.carousel-indicators
+            li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+            li(data-target='#carouselExampleIndicators', data-slide-to='1')
+            li(data-target='#carouselExampleIndicators', data-slide-to='2')
+          .carousel-inner
+            .carousel-item.active
+              .slide-content.w-100
+                .text-blockus
+                  h4 Зимняя распродажа
+                  h1 СКИДКИ ДО 90%
+                  a.slider-link(href="#") СМОТРЕТЬ МОДЕЛИ
+                .image-block
+                  img(src="images/running_shoes_PNG5823.png", alt="shoe")
+                  .prev-price 9 900 ₽
+                  .current-price 1 900 ₽
+            .carousel-item
+              .slide-content.w-100
+                .text-blockus
+                  h4 Зимняя распродажа
+                  h1 СКИДКИ ДО 90%
+                  a.slider-link(href="#") СМОТРЕТЬ МОДЕЛИ
+                .image-block
+                  img(src="images/running_shoes_PNG5823.png", alt="shoe")
+                  .prev-price 9 900 ₽
+                  .current-price 1 900 ₽
+            .carousel-item
+              .slide-content.w-100
+                .text-blockus
+                  h4 Зимняя распродажа
+                  h1 СКИДКИ ДО 90%
+                  a.slider-link(href="#") СМОТРЕТЬ МОДЕЛИ
+                .image-block
+                  img(src="images/running_shoes_PNG5823.png", alt="shoe")
+                  .prev-price 9 900 ₽
+                  .current-price 1 900 ₽
+
+    main
+      .block
+        h1 БЕСПЛАТНАЯ ДОСТАВКА
+          span ОТ 3000₽
+
+        p Сделайте заказ и получите подарок! 
+      
+      .section
+        .container
+          .row
+            .col 
+              .shus
+                h3 МУЖСКАЯ 
+                  span КОЛЛЕКЦИЯ
+                p Обувь, полуверы, костюмы 
+                button 
+                  i.fal.fa-arrow-right  
+              .photo    
+                img(src="images/Rectangle 3.png", alt="img")  
+            .col 
+              .shus
+                h3 ЖЕНСКАЯ 
+                  span КОЛЛЕКЦИЯ
+                p Обувь, полуверы, костюмы 
+                button 
+                  i.fal.fa-arrow-right  
+              .photo    
+                img(src="images/Rectangle 3.1.png", alt="img")
+      .container
+        .row
+          .col 
+            .dress
+              p ПЛАТЬЯ
+            .dresses  
+              img(src="images/Rectangle.png", alt="майка")
+          .col 
+            .dress
+              p ПЛАТЬЯ
+            .dresses  
+              img(src="images/Rectangle.png", alt="майка")
+          .col 
+            .dress
+              p ПЛАТЬЯ
+            .dresses  
+              img(src="images/Rectangle.png", alt="майка")
+          .col 
+            .dress
+              p ПЛАТЬЯ
+            .dresses  
+              img(src="images/Rectangle.png", alt="майка")     
+          .w-100
+          .col 
+            .dress
+              p ПЛАТЬЯ
+            .dresses  
+              img(src="images/Rectangle.png", alt="майка")
+          .col 
+            .dress
+              p ПЛАТЬЯ
+            .dresses  
+              img(src="images/Rectangle.png", alt="майка")
+          .col 
+            .dress
+              p ПЛАТЬЯ
+            .dresses  
+              img(src="images/Rectangle.png", alt="майка")
+          .col 
+            .dress
+              p ПЛАТЬЯ
+            .dresses  
+              img(src="images/Rectangle.png", alt="майка")
+
+      .model
+        h1 НОВЫЕ МОДЕЛИ  
+
+      .container
+        .row
+          .col 
+            .block
+              .kyb
+              .kyb1
+          .col col
+          .col col
+          .col col   
+    
+            
+        
+    footer
+
+
+
+
+
+    script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js' integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj' crossorigin='anonymous')
+    script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js' integrity='sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI' crossorigin='anonymous')
