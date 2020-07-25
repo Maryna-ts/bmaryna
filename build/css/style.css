@@ -126,7 +126,8 @@ header {
       line-height: 37px;
       text-align: center;
       letter-spacing: 0.02em;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      padding-left: 8px; }
   .block p {
     font-weight: 300;
     font-size: 21px;
