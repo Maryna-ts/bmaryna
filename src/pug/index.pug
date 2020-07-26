@@ -87,13 +87,13 @@ html
                   .current-price 1 900 ₽
 
     main
-      .block
-        h1 БЕСПЛАТНАЯ ДОСТАВКА
-          span ОТ 3000₽
-
-        p Сделайте заказ и получите подарок! 
+      section(class="besp")
+        .block
+          h1 БЕСПЛАТНАЯ ДОСТАВКА
+            span ОТ 3000₽
+            p Сделайте заказ и получите подарок! 
       
-      .section
+      .section(class="men")
         .container
           .row
             .col 
@@ -114,218 +114,240 @@ html
                   i.fal.fa-arrow-right  
               .photo    
                 img(src="images/Rectangle 3.1.png", alt="img")
-      .container
-        .row
-          .col 
-            .dress
-              p ПЛАТЬЯ
-            .dresses  
-              img(src="images/Rectangle.png", alt="майка")
-          .col 
-            .dress
-              p ПЛАТЬЯ
-            .dresses  
-              img(src="images/Rectangle.png", alt="майка")
-          .col 
-            .dress
-              p ПЛАТЬЯ
-            .dresses  
-              img(src="images/Rectangle.png", alt="майка")
-          .col 
-            .dress
-              p ПЛАТЬЯ
-            .dresses  
-              img(src="images/Rectangle.png", alt="майка")     
-          .w-100
-          .col 
-            .dress
-              p ПЛАТЬЯ
-            .dresses  
-              img(src="images/Rectangle.png", alt="майка")
-          .col 
-            .dress
-              p ПЛАТЬЯ
-            .dresses  
-              img(src="images/Rectangle.png", alt="майка")
-          .col 
-            .dress
-              p ПЛАТЬЯ
-            .dresses  
-              img(src="images/Rectangle.png", alt="майка")
-          .col 
-            .dress
-              p ПЛАТЬЯ
-            .dresses  
-              img(src="images/Rectangle.png", alt="майка")
+      
+      .section(class="dresskod")     
+        .container
+          .row
+            .col 
+              .dress
+                p ПЛАТЬЯ
+              .dresses  
+                img(src="images/Rectangle.png", alt="майка")
+            .col 
+              .dress
+                p ПЛАТЬЯ
+              .dresses  
+                img(src="images/Rectangle.png", alt="майка")
+            .col 
+              .dress
+                p ПЛАТЬЯ
+              .dresses  
+                img(src="images/Rectangle.png", alt="майка")
+            .col 
+              .dress
+                p ПЛАТЬЯ
+              .dresses  
+                img(src="images/Rectangle.png", alt="майка")     
+            .w-100
+            .col 
+              .dress
+                p ПЛАТЬЯ
+              .dresses  
+                img(src="images/Rectangle.png", alt="майка")
+            .col 
+              .dress
+                p ПЛАТЬЯ
+              .dresses  
+                img(src="images/Rectangle.png", alt="майка")
+            .col 
+              .dress
+                p ПЛАТЬЯ
+              .dresses  
+                img(src="images/Rectangle.png", alt="майка")
+            .col 
+              .dress
+                p ПЛАТЬЯ
+              .dresses  
+                img(src="images/Rectangle.png", alt="майка")
 
       .model
-        h1 НОВЫЕ МОДЕЛИ  
+        .container
+          h1 НОВЫЕ МОДЕЛИ  
 
-      .container(style="background-color: #ffff")
-        .row
-          .col 
-            .var
-              .kyb
-              .kyb1
-              .pipl
-              .pipl-img
-                img(src="images/Rectangle 2.png", alt="image")
-                h3 Коктейльное платье 
-                p ₽ 40 000      
-              .var1
+      .section(class="koktel-pla")
+        .container
+          .row
+            .col 
+              .var
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .kyb
+                .kyb1
+                .kyb2
+                .kyb3      
+          .pay
+            button(class="mud") ВСЕ МОДЕЛИ
+              i(class="fal fa-arrow-right")
+              
+      .section(class="koktel")
+        .container
+          .row
+            .col 
+              .var
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .kyb
+                .kyb1
                 .kyb2
                 .kyb3    
-          .col 
-            .var
-              .kyb
-              .kyb1
-              .pipl
-              .pipl-img
-                img(src="images/Rectangle 2.png", alt="image")
-                h3 Коктейльное платье 
-                p ₽ 40 000      
-              .var1
-                .kyb2
-                .kyb3    
-          .col 
-            .var
-              .kyb
-              .kyb1
-              .pipl
-              .pipl-img
-                img(src="images/Rectangle 2.png", alt="image")
-                h3 Коктейльное платье 
-                p ₽ 40 000      
-              .var1
-                .kyb2
-                .kyb3    
-          .col 
-            .var
-              .kyb
-              .kyb1
-              .pipl
-              .pipl-img
-                img(src="images/Rectangle 2.png", alt="image")
-                h3 Коктейльное платье 
-                p ₽ 40 000      
-              .var1
-                .kyb2
-                .kyb3   
+            .col 
+              .var
+                .kyb
+                .kyb1
+                .pipl
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .var1
+                  .kyb2
+                  .kyb3    
+            .col 
+              .var
+                .kyb
+                .kyb1
+                .pipl
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .var1
+                  .kyb2
+                  .kyb3    
+            .col 
+              .var
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .kyb
+                .kyb1
+                .pipl
+                .var1
+                  .kyb2
+                  .kyb3   
 
-        .pay
-          button(class="mud") ВСЕ МОДЕЛИ
-           i(class="fal fa-arrow-right")
+          .pay
+            button(class="mud") ВСЕ МОДЕЛИ
+              i(class="fal fa-arrow-right")
 
       .block1
-        .art
-          span ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ
-          input(type='text', placeholder='Ваш e-mail')
-          button ПОДПИСАТЬСЯ
+        .container
+          .art
+            span ПОЛУЧАЙТЕ СКИДКИ И ПОДАРКИ
+            input(type='text', placeholder='Ваш e-mail')
+            button ПОДПИСАТЬСЯ
 
       .block2
-        h1 СКИДКИ ДО 90%     
+        .container
+         h1 СКИДКИ ДО 90%     
 
-      .container(style="background-color: #ffff")
-        .row
-          .col 
-            .var
-              .kyb
-              .kyb1
-              .pipl
-              .pipl-img
-                img(src="images/Rectangle 2.png", alt="image")
-                h3 Коктейльное платье 
-                p ₽ 40 000      
-              .var1
+      .section(class="koktel")
+        .container
+          .row
+            .col 
+              .var
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .kyb
+                .kyb1
                 .kyb2
                 .kyb3    
-          .col 
-            .var
-              .kyb
-              .kyb1
-              .pipl
-              .pipl-img
-                img(src="images/Rectangle 2.png", alt="image")
-                h3 Коктейльное платье 
-                p ₽ 40 000      
-              .var1
-                .kyb2
-                .kyb3    
-          .col 
-            .var
-              .kyb
-              .kyb1
-              .pipl
-              .pipl-img
-                img(src="images/Rectangle 2.png", alt="image")
-                h3 Коктейльное платье 
-                p ₽ 40 000      
-              .var1
-                .kyb2
-                .kyb3    
-          .col 
-            .var
-              .kyb
-              .kyb1
-              .pipl
-              .pipl-img
-                img(src="images/Rectangle 2.png", alt="image")
-                h3 Коктейльное платье 
-                p ₽ 40 000      
-              .var1
-                .kyb2
-                .kyb3   
+            .col 
+              .var
+                .kyb
+                .kyb1
+                .pipl
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .var1
+                  .kyb2
+                  .kyb3    
+            .col 
+              .var
+                .kyb
+                .kyb1
+                .pipl
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .var1
+                  .kyb2
+                  .kyb3    
+            .col 
+              .var
+                .pipl-img
+                  img(src="images/Rectangle 2.png", alt="image")
+                  h3 Коктейльное платье 
+                  p ₽ 40 000      
+                .kyb
+                .kyb1
+                .pipl
+                .var1
+                  .kyb2
+                  .kyb3   
 
-        .pay
-          button(class="mud") ВСЕ МОДЕЛИ
-           i(class="fal fa-arrow-right")
+          .pay
+            button(class="mud") ВСЕ МОДЕЛИ
+              i(class="fal fa-arrow-right")
 
     footer
       .block3
-        .gros
-          .gros-wrap
-            img(src="/images/Frame.png", alt="картинка")
-            span THE LOOP
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at eleifend elit ornare ut.
+        .container
+          .gros
+            .gros-wrap
+              img(src="/images/Frame.png", alt="картинка")
+              span THE LOOP
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus egestas elit, at eleifend elit ornare ut.
 
-          .gros-main
-            h1 ОСНОВНЫЕ ССЫЛКИ
-            p О компании
-            p Каталог
-            p Доставка
-            p Оплата
+            .gros-main
+              h1 ОСНОВНЫЕ ССЫЛКИ
+              p О компании
+              p Каталог
+              p Доставка
+              p Оплата
 
-          .gros-grup
-            h1 КАТЕГОРИИ
-            p Мужская одежда
-            p Женская одежда
-            p Детская одежда
-            p Для животных
+            .gros-grup
+              h1 КАТЕГОРИИ
+              p Мужская одежда
+              p Женская одежда
+              p Детская одежда
+              p Для животных
 
-          .gros-gut
-            h1 ПОЛЕЗНЫЕ ССЫЛКИ
-            p Таблица размеров
-            p Блог о моде
-            p Наша миссия
+            .gros-gut
+              h1 ПОЛЕЗНЫЕ ССЫЛКИ
+              p Таблица размеров
+              p Блог о моде
+              p Наша миссия
 
-          .gros-typ
-            h1 СОЦ СЕТИ 
-            .war
-              i(class="fab fa-vk")
-              span VK.com
-            .war
-              i(class="fab fa-facebook-square")
-              span Facebook
-            .war
-              i(class="fab fa-instagram")
-              span Instagram
+            .gros-typ
+              h1 СОЦ СЕТИ 
+              .war
+                i(class="fab fa-vk")
+                span VK.com
+              .war
+                i(class="fab fa-facebook-square")
+                span Facebook
+              .war
+                i(class="fab fa-instagram")
+                span Instagram
     
       .block4
-        .zet
-          .prav
-            h1 Copyright © 2019. Все права защищены
-          .prav
-            h1 Политика приватности  
+        .container
+          .zet
+            .prav
+              h1 Copyright © 2019. Все права защищены
+            .prav
+              h1 Политика приватности  
           
 
 
